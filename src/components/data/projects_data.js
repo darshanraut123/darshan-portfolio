@@ -3,9 +3,16 @@ import reset from '../../assets/projects_images/reset.png';
 import webscrapping from '../../assets/projects_images/webscrapping.png';
 import foodstore from '../../assets/projects_images/foodstore.png';
 import portfolio from '../../assets/projects_images/portfolio.png';
+import whatsapp from '../../assets/projects_images/whatsapp.png';
 
 
 const data_projects = [
+    {
+        name: 'WhatsApp UI ChatRoom',
+        image: whatsapp,
+        deployed_url: 'https://whatsapp-clone-darshan.netlify.app/',
+        github_url: 'https://github.com/darshanraut123/whatsapp-clone',
+    },
     {
         name: 'URL Shortener',
         image: urlshortener,
@@ -31,11 +38,11 @@ const data_projects = [
         github_url: 'https://github.com/darshanraut123/darshan-portfolio',
     },
     {
-        name: 'Food Store CRUD Front END',
+        name: 'Food Store CRUD Front End',
         image: foodstore,
         deployed_url: 'https://food-choice-app.netlify.app/',
         github_url: 'https://github.com/darshanraut123/CRUD-Formik-Food-Choice-App-27-28',
-    },
+    }
 ]
 
 
