@@ -11,7 +11,7 @@ const skills = [
     {
         icon: computer,
         title: "Frontend Development",
-        about: "I can build a beautiful and scalable SPA using HTML, CSS ,Bootstrap & React.js"
+        about: "I can build beautiful and scalable SPA using HTML, CSS ,Bootstrap & React.js"
     },
     {
         icon: repair,
