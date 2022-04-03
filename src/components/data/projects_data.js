@@ -4,9 +4,16 @@ import webscrapping from '../../assets/projects_images/webscrapping.png';
 import foodstore from '../../assets/projects_images/foodstore.png';
 import portfolio from '../../assets/projects_images/portfolio.png';
 import whatsapp from '../../assets/projects_images/whatsapp.png';
+import contacts from '../../assets/projects_images/contacts.png';
 
 
 const data_projects = [
+    {
+        name: 'Contacts-Redux-App',
+        image: contacts,
+        deployed_url: 'https://contacts-redux-app.netlify.app/',
+        github_url: 'https://github.com/darshanraut123/contacts-app',
+    },
     {
         name: 'WhatsApp UI ChatRoom',
         image: whatsapp,
