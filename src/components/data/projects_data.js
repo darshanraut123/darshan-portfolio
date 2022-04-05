@@ -5,6 +5,7 @@ import foodstore from '../../assets/projects_images/foodstore.png';
 import portfolio from '../../assets/projects_images/portfolio.png';
 import whatsapp from '../../assets/projects_images/whatsapp.png';
 import contacts from '../../assets/projects_images/contacts.png';
+import aggrid from '../../assets/projects_images/ag-grid.png';
 
 
 const data_projects = [
@@ -19,6 +20,12 @@ const data_projects = [
         image: whatsapp,
         deployed_url: 'https://whatsapp-clone-darshan.netlify.app/',
         github_url: 'https://github.com/darshanraut123/whatsapp-clone',
+    },
+    {
+        name: 'AG Data Grid Implementation',
+        image: aggrid,
+        deployed_url: 'https://ag-grid.netlify.app/',
+        github_url: 'https://github.com/darshanraut123/ag-grid.git',
     },
     {
         name: 'URL Shortener',
